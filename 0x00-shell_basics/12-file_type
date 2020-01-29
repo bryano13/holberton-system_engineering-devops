@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/iamafile gfd
+file /tmp/iamafile
