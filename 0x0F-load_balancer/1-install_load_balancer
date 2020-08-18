@@ -8,7 +8,7 @@ frontend http_front
     default_backend http_back
 backend http_back
     balance roundrobin
-    server 1506-web-01 34.75.41.111:80 check
-    server 1506-web-02 34.73.135.215:80 check
+    server 1523-web-01 34.75.41.111:80 check
+    server 1523-web-02 34.73.135.215:80 check
 EOL
 /etc/init.d/haproxy restart
